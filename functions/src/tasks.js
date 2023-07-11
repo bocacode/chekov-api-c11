@@ -52,6 +52,7 @@ export async function updateTask(req, res) {
  getTasks(req, res);
 };
 
+
 // Delete Task
 export async function deleteTask(req, res) {
   const { uid }  = req.params;
